@@ -1,0 +1,20 @@
+{
+    "name": "pauldominik/deploy",
+    "description": "deploy a laravel 5.2+ app through git hooks",
+    "authors": [
+        {
+            "name": "Paul Dominik",
+            "email": "iam@pauldominik.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pauldominik\\Deploy\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "license": "MIT"
+}
